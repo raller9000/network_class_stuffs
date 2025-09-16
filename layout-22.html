@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout 2<fieldset></fieldset>fleexbox</title>
+
+
+    <style> 
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+        background-color: #f0f0f0;
+        font-family: sans-serif;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .textlogo {
+        color: #999;
+    }
+    .field {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+    .emptyline {
+        height: 15px;
+        background-color: #eee;
+        border-radius: 4px;
+        width: 100%;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .circle {
+        width: 60px;
+        height: 60px;
+        background-color: #ddd;
+        border-radius: 50%;
+    }
+    .emptylinelow {
+        width: 100px;
+        height: 10px;
+        background-color: #eee;
+        border-radius: 4px;
+    }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h3 class="textlogo">Logo</h3>
+        </div>
+        
+        <div class="field">
+            <div class="emptyline"></div>
+            <div class="emptyline"></div>
+            <div class="emptyline"></div>
+            <div class="emptyline"></div>
+        </div>
+
+        <div class="footer">
+            <div class="circle"></div>
+            <div class="emptylinelow"></div>
+        </div>
+    </div>
+</body>
+</html>
