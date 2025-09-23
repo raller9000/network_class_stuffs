@@ -1,0 +1,15 @@
+    Um usuário abre seu navegador, certifica-se de que está conectado a internet e digita um URL para conectar-se a um website.
+
+    Este website pode ter múltiplos protocolos de conexão, o mais popular deles é o https e http, o https especialemente pois é um protocolo reconhecido por qualquer dispositivo e o mais importante, seguro.
+
+    Ao escolher um URL, o usuário envia uma solicitação de conexão com o servidor do website, que verifica o IP, licença, dispositivo e permissões do usuário tentando se conectar,
+    depois disso, se o IP for válido, a licença ser verificada e dispositivo reconhecido ou autorizado, o usuário recebe uma série de packets e arquivos para baixar temporáriamente
+    em seu computador, estes arquivos e pacotes serão usados para exibir a página de modo com que o usuário consiga interagir com o website e utilizá-lo para os fins que deseja.
+
+    É importante lembrar que o usuário também envia mensagens ao servidor requisitando data, mais arquivos, ou até enviar arquivos ou data para o servidor do website, como um login por exemplo.
+    
+
+    Também é possível conectar-se diretamente a um servidor/máquina por meio do TCP utilizando o próprio IP. Dependendo do porta utilizada, é possível estabelecer uma conexão direta,
+    podendo requisitar qualquer tipo de informação no servidor utilizando-se de comandos, claro que estes também dependeram da permissão do usuário.
+
+    
