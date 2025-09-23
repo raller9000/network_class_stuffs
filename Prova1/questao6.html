@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bandeiras</title>
 
-        <style>
+    <style>
 
-    .circle {
+    .japan .circle {
       width: 80px;
       height: 80px;
       background-color: red;
@@ -16,46 +16,89 @@
       justify-content: center;
     }
 
-    .container {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      width: 300px;
+    .japan {
       height: 200px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .flag-japan {
+      width: 300px;
       display: flex;
       align-items: center;
+      justify-content: center;
+       background-color: white;
     }
 
     body {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 0;
-      background-color: #f0f0f0;
+      margin: 0px;
+      padding: 20px;
+      gap: 20px;
+      background-color: whitesmoke;
     }
+
+    .netherlands {
+      height: 200px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .netherlands div {
+      flex: 1;
+    }
+
+    .netherlands .coloro3 {
+      background-color: blue;      
+    }
+
+    .netherlands .coloro2 {
+      background-color: white;      
+    }
+
+    .netherlands .coloro1 {
+      background-color: red;      
+    }
+
+    .italy {
+      height: 200px;
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .italy div {
+      flex: 1;
+    }
+
+    .italy .color1 {
+      background-color: green;      
+    }
+    .italy .color2 {
+      background-color: white;      
+    }
+    .italy .color3 {
+      background-color: red;      
+    }
+
 
     </style>
 
 </head>
 <body>
     
-    <div class="container">
-      <div class="flag-japan">
-        <div class="circle">
+    <div class="japan">
+      <div class="circle"></div>
+    </div>
 
-        </div> 
-      </div>
-    <div\>
+    <div class="netherlands">
+      <div class="coloro1"></div>
+      <div class="coloro2"></div>
+      <div class="coloro3"></div>
+    </div>
 
-    <div class="container">
-      <div class="flag-france">
-      </div>
+    <div class="italy">
+      <div class="color1"></div>
+      <div class="color2"></div>
+      <div class="color3"></div>
     </div>
 
 </body>
